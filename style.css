@@ -1,0 +1,70 @@
+@import url('https://www.1001fonts.com/poppins-font.html');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins', Sans-Serif;
+}
+
+body, .contianer, .content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+body{
+    height:100vh;
+    background:#4a98f7;
+}
+
+.contianer{
+    width:450px;
+    background:#fff;
+    border-radius:10px;
+    padding:30px;
+    flex-direction:column;
+}
+
+.contianer h1{
+    font-size:40px;
+    margin:30px 0;
+}
+
+.contianer .content{
+    width:100%;
+    /* background:red; */
+    justify-content:space-between;
+}
+
+.contianer .content.disable{
+   opacity:0.5;
+   pointer-events:none;
+}
+
+ .content .contrlos{
+    border:1px solid #999;
+    width:calc(100% / 2 - 5px);
+    padding:5px 10px; 
+    border-radius:5px;
+}
+
+.content .contrlos select{
+    border:0;
+    outline:0;
+    font-size:16px;
+    width:100%;
+}
+
+.contianer button{
+    width:100%;
+    background:#4a98f7;
+    border-radius:5px;
+    color:#fff;
+    font-size:20px;
+    border:0;
+    outline:0;
+    padding:15px 0;
+    margin-top:20px ;
+    border-radius:5px;
+}
